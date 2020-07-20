@@ -1,0 +1,18 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "gl-matrix/gl-matrix.d.ts": {
+      "commit": "66f88ec51858bb21bc375fa91a963c04bc09401e"
+    },
+    "stats/stats.d.ts": {
+      "commit": "66f88ec51858bb21bc375fa91a963c04bc09401e"
+    },
+    "chroma-js/chroma-js.d.ts": {
+      "commit": "66f88ec51858bb21bc375fa91a963c04bc09401e"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CS 3451 Fall 2019 - Assignment 4</title>
+<link type="text/css" href="includes/style.css" rel="stylesheet" />
+
+<script src="resources/webgl-utils.js"></script>
+<script src="resources/gl-matrix.js"></script>
+<script src="resources/chroma.js"></script>
+<script src="resources/Stats.js"></script>
+</head>
+
+<body>
+<div class="description">
+Uses a few utility functions so there's much less code.
+</div>
+ 
+<div>Pick a file to load: 
+	<select id="files" name="files" onchange="jsonFileChanged();">
+		<option id="option1" value="HtetY.json">HtetT</option>
+		<option id="option2" value="star.json">star</option>
+		<option id="option3" value="bunny.json" selected>bunny</option>
+		<option id="option4" value="fan.json">fan</option>
+		<option id="option5" value="fandisk17574.json">fandisk</option>
+		<option id="option6" value="horse.json">horse</option>
+		<option id="option7" value="icos.json">icos</option>
+		<option id="option8" value="octa.json">octa</option>
+		<option id="option9" value="tet.json">tet</option>
+		<option id="option10" value="torus.json">torus</option>
+		<option id="option11" value="venus.json">venus</option>
+	</select>
+    <input id="filename" type="text" name="filename" value="bunny.json"></input>
+	<button id="loadButton" class="button" onclick="loadModel();">Load</button>
+	<progress id="progress" class="progress" value="0" max="1" visibility="hidden"></progress>
+	<button id="subdivideButton" class="button" onclick="onSubdivide();">Subdivide</button>		
+</div>
+
+<canvas id="webgl"></canvas>
+
+<script type="module" src="js/app.js"></script>
+
+</body>
+</html>
