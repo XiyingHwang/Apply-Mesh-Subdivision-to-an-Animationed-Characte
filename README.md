@@ -1,4 +1,4 @@
-# Assignment 4: Mesh Subdivision
+# Mesh Subdivision Project
 
 In this assignment, you will load, process and display mesh files.  The sample code has functionality to load and display objects, and displays a simple 3D model of the letter "F" at startup (so something is loaded and displays when you run the code, and so you can see what a model should look like when displayed).
 
